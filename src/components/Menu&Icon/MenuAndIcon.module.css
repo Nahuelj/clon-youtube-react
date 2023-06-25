@@ -1,0 +1,55 @@
+.containerMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    min-width: 185px;
+    overflow: hidden;
+    gap:5px;
+}
+
+.menu{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.menu:hover{
+    background-color: rgba(255, 255, 255, 0.073);
+    border-radius: 50%;
+}
+
+.logo{
+    height: 40px;
+    width: 140px;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.imgMenu{
+    width: 24px;
+    height: 24px;
+}
+
+.imgLogo{
+    width: 120px;
+}
+
+.ar{
+    font-size: 10px;
+    position: absolute;
+    top: -6px;
+    right: 15px;
+    text-decoration: none;
+    text-transform: none;
+    color: rgba(255, 255, 255, 0.487);
+    font-family: sans-serif;
+}

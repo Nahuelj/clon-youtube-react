@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from "./components/Navbar/Navbar"
+import ButtonsNav from './components/ButtonsNav/ButtonsNav';
+import MenuAndIcon from './components/Menu&Icon/MenuAndIcon';
+import SearchBar from './components/SearchBar/SearchBar';
+import ButtonAside from './components/ButtonAside/ButtonAside';
+import icon from "./components/ButtonAside/icons/liked.svg"
+import biblioteca from "./components/ButtonAside/icons/biblioteca.svg"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <NavBar/>
+      <ButtonAside text="Biblioteca" url={biblioteca}/>
+    </div> 
   );
 }
 

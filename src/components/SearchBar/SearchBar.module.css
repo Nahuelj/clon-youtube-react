@@ -1,0 +1,89 @@
+.containerSearchBar{
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    background-color: transparent;
+    height: 40px;
+    min-width: 50px;
+    border: 1px solid hsl(0, 0%, 18.82%);
+    border-radius: 40px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 600px;
+    max-width: 100%; 
+}
+
+.inputBar{
+    width: 90%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    opacity: .9;
+    padding: 1rem;
+    color: rgba(255, 255, 255, 0.947);
+}
+
+.inputBar:focus{
+    border: 1px solid #065fd4;
+}
+
+.buttonSearch{
+    background-color: #222222;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-left: 1px solid hsl(0, 0%, 18.82%);
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 10%;
+    min-width:50px;
+    cursor: pointer;
+}
+
+.imgSearch{
+    width: 21px;
+    height: 21px;
+    opacity: .9;
+}
+
+.buttonMicrophone{
+    width: 43px;
+    min-width: 43px;
+    height: 43px;
+    min-height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #212121;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonMicrophone:hover{
+    background-color: #4d4d4da6;
+    border-radius: 50%;
+}
+
+
+.imgMicrophone{
+    width: 25px;
+    height: 25px;
+}
+
+.containerSearch{
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 726px;
+    max-width: 100%; 
+}

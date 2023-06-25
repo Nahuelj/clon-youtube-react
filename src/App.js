@@ -1,17 +1,16 @@
-import './App.css';
+import styles from "./App.module.css"
 import NavBar from "./components/Navbar/Navbar"
-import ButtonsNav from './components/ButtonsNav/ButtonsNav';
-import MenuAndIcon from './components/Menu&Icon/MenuAndIcon';
-import SearchBar from './components/SearchBar/SearchBar';
-import ButtonAside from './components/ButtonAside/ButtonAside';
-import icon from "./components/ButtonAside/icons/liked.svg"
-import biblioteca from "./components/ButtonAside/icons/biblioteca.svg"
+import AsideBar from './components/AsideBar/AsideBar';
+import ButtonCategories from './components/ButtonCategories/ButtonCategories';
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.App}>
       <NavBar/>
-      <ButtonAside text="Biblioteca" url={biblioteca}/>
+      <div className={styles.containerAll}>
+      <AsideBar/>
+      <ButtonCategories/>
+      </div>
     </div> 
   );
 }

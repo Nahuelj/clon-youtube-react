@@ -2,8 +2,7 @@
 
 
 .containerButtonAside{
-    height: 39px;
-    width: 180px;
+    min-height: 39px;
     padding: 0 12px;
     display: flex;
     cursor: pointer;
@@ -28,7 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 24px;
+    margin-right: 23px;
 }
 
 .textButton{
@@ -39,5 +38,8 @@
     color: #f1f1f1f0;
     line-height: 20px;
     text-align: justify;
-    line-height: 2rem;
+    width: 132px;
+    overflow: hidden;
+    position: relative;
+    top: 1px;
 }

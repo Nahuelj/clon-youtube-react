@@ -1,0 +1,92 @@
+.containerVideo{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    cursor: pointer;
+    width: 351px;
+    height: 297px;
+    margin: 0;
+}
+
+.containerDescription{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-family: "Roboto", "monospace", sans-serif;
+}
+
+.chanel{
+    margin: 0;
+    font-size: 14px;
+    color: #AAA;
+}
+
+.chanel:hover{
+    color: rgba(255, 255, 255, 0.898);
+}
+
+.title{
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    max-width: 288px;
+    margin-bottom: 3px;
+}
+
+.views{
+    margin: 0;
+    font-size: 14px;
+    color: #AAA;
+}
+.time{
+    margin: 0;
+    font-size: 14px;
+    color: #AAA;
+}
+
+
+.miniatura{
+    width: 351px;
+    height: 197px;
+    border-radius: 10px;
+}
+
+.imgProfile{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.containerViews{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.point{
+    width: 4px;
+    height: 4px;
+}
+
+.containerMiniatura{
+    position: relative;
+}
+
+.duration{
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+    background-color: #151516d8;
+    padding: 3px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 450;
+    font-size: 12px;
+    border-radius: 5px;
+}

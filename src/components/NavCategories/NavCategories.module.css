@@ -1,0 +1,32 @@
+.containerNavCategories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    overflow-x: hidden;
+    min-width: 150px;
+}
+
+.containerCategories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: calc(100vw - 260px);
+}
+
+.buttonScroll{
+    min-width: 40px;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #212121;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonScroll:hover{
+    background-color: #4d4d4da6;
+}
